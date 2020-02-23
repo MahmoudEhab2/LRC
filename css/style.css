@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+*:focus{
+    outline: none;
+}
+html{
+    font-size: 20px;
+    font-weight: 300;
+    overflow: hidden;
+    font-family:monospace;
+}
+.MainSection{
+    display: block;
+    height: 100vh;
+    background-color: #0c2461;
+    text-align: center;
+}
+.Container{
+    display: block;
+    width: 100%;
+}
+
+/*Container 1*/
+.c1{
+    display: block;
+    width: 100%;
+    height: 15%;
+}
+h1{
+    display: inline-block;
+    color: #1e3799;
+    font-size: 200%;
+    margin: 1%;
+}
+
+/*Container 2*/
+.c2{
+    display: block;
+    width: 100%;
+    height: 70%;
+}
+.c2 span{
+    display: inline-block;
+    width: 65%;
+    height: 100%;
+    text-align: center;
+    overflow-x: scroll;
+    background-color: rgba(0, 0, 0, 0.075);
+    overflow-y: hidden;
+}
+.c2 ul{
+    display: flex;
+    width: auto;
+    height: 100%;
+}
+.c2 ul li{
+    list-style: none;
+    height: 80%;
+    width: auto;
+    float: left;
+    margin: 40px auto; 
+}
+.c2 ul li img{
+    height: 100%;
+    width: auto;
+    background-position: center;
+    object-fit:contain;
+}
+
+/*Container 3*/
+.c3{
+    display: block;
+    width: 100%;
+    height: 15%;
+}
+.DownloadBtn{
+    display: inline-block;
+    color: #6a89cc;
+    background-color: #1e3799;
+    padding: 20px 10%;
+    border-radius: 15px;
+    text-transform: uppercase;
+    margin: 1%;
+    transition-duration: 0.25s;
+}
+.DownloadBtn:hover{
+    color: #1e3799;
+    background-color: #6a89cc;
+}

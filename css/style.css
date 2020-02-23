@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    animation-duration: 2.5s;
 }
 *:focus{
     outline: none;
@@ -34,6 +35,7 @@ h1{
     color: #1e3799;
     font-size: 200%;
     margin: 1%;
+    animation-name: titleMoveUp;
 }
 
 /*Container 2*/
@@ -41,6 +43,7 @@ h1{
     display: block;
     width: 100%;
     height: 70%;
+    animation-name: c2FadeIn;
 }
 .c2 span{
     display: inline-block;
@@ -75,6 +78,7 @@ h1{
     display: block;
     width: 100%;
     height: 15%;
+    animation-name: c3FadeIn;
 }
 .DownloadBtn{
     display: inline-block;

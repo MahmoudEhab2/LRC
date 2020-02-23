@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    -webkit-animation-duration: 2.5s;
     animation-duration: 2.5s;
 }
 *:focus{
@@ -35,6 +36,7 @@ h1{
     color: #1e3799;
     font-size: 200%;
     margin: 1%;
+    -webkit-animation-name: titleMoveUp;
     animation-name: titleMoveUp;
 }
 
@@ -43,6 +45,7 @@ h1{
     display: block;
     width: 100%;
     height: 70%;
+    -webkit-animation-name: c2FadeIn;
     animation-name: c2FadeIn;
 }
 .c2 span{
@@ -55,6 +58,8 @@ h1{
     overflow-y: hidden;
 }
 .c2 ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: auto;
     height: 100%;
@@ -70,6 +75,7 @@ h1{
     height: 100%;
     width: auto;
     background-position: center;
+    -o-object-fit:contain;
     object-fit:contain;
 }
 
@@ -78,6 +84,7 @@ h1{
     display: block;
     width: 100%;
     height: 15%;
+    -webkit-animation-name: c3FadeIn;
     animation-name: c3FadeIn;
 }
 .DownloadBtn{
@@ -88,6 +95,7 @@ h1{
     border-radius: 15px;
     text-transform: uppercase;
     margin: 1%;
+    -webkit-transition-duration: 0.25s;
     transition-duration: 0.25s;
 }
 .DownloadBtn:hover{
